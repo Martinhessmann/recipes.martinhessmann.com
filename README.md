@@ -115,13 +115,3 @@ src/
 ## 🤝 Contributing
 
 Pull requests and suggestions are welcome! Please ensure recipes and features align with the project’s dietary and UX philosophy.
-
----
-
-## 📄 License
-
-MIT
-
----
-
-**Enjoy healthy, delicious, and seasonal meals—beautifully organized and always at your fingertips!**
