@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 180 30% 3%;
+  --foreground: 180 5% 95%;
+
+  --card: 180 30% 5%;
+  --card-foreground: 180 5% 95%;
+
+  --primary: 180 100% 25%;
+  --primary-foreground: 180 5% 98%;
+
+  --secondary: 180 20% 65%;
+  --secondary-foreground: 180 30% 10%;
+
+  --accent: 15 100% 60%;
+  --accent-foreground: 0 0% 100%;
+
+  --muted: 180 10% 20%;
+  --muted-foreground: 180 5% 65%;
+
+  --border: 180 15% 20%;
+  --input: 180 15% 20%;
+  --ring: 180 100% 25%;
+
+  --radius: 0.75rem;
+}
+
+body {
+  @apply bg-background text-foreground;
+  font-feature-settings: "rlig" 1, "calt" 1;
+}
+
+.status-bar {
+  @apply flex justify-between items-center px-4 py-2 text-sm;
+}
+
+.date-selector {
+  @apply flex justify-between items-center mb-6;
+}
+
+.date-item {
+  @apply flex flex-col items-center;
+}
+
+.date-day {
+  @apply text-secondary text-sm mb-1;
+}
+
+.date-number {
+  @apply w-8 h-8 rounded-full flex items-center justify-center text-sm;
+}
+
+.date-active {
+  @apply bg-primary text-primary-foreground;
+}
+
+.recipe-card {
+  @apply rounded-xl overflow-hidden bg-card mb-6;
+}
+
+.recipe-image {
+  @apply w-full h-48 object-cover;
+}
+
+.recipe-info {
+  @apply p-4;
+}
+
+.recipe-title {
+  @apply text-lg font-medium mb-1;
+}
+
+.recipe-meta {
+  @apply text-sm text-muted-foreground;
+}
+
+.ingredient-item {
+  @apply flex justify-between items-center py-4 border-b border-border;
+}
+
+.ingredient-checkbox {
+  @apply w-6 h-6 rounded-full border-2 border-secondary flex items-center justify-center;
+}
+
+.ingredient-checked {
+  @apply bg-primary border-primary;
+}
+
+.step-number {
+  @apply text-xl font-semibold mb-2;
+}
+
+.tab-bar {
+  @apply flex justify-around items-center py-4 border-t border-border;
+}
+
+.tab-item {
+  @apply flex flex-col items-center;
+}
+
+.tab-icon {
+  @apply mb-1;
+}
+
+.tab-text {
+  @apply text-xs;
+}
+
+.tab-active {
+  @apply text-accent;
+}
