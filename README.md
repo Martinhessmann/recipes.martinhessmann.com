@@ -83,6 +83,52 @@ src/
 
 ---
 
+## 🎨 Design System
+
+### Typography
+We use [Geist](https://vercel.com/font) by Vercel for its excellent readability and modern feel:
+```css
+/* Main UI elements */
+font-family: 'Geist Sans', -apple-system, sans-serif;
+
+/* Measurements & timing */
+font-family: 'Geist Mono', monospace;
+```
+
+### Icons
+[Phosphor Icons](https://phosphoricons.com) for consistent, minimal iconography:
+```typescript
+import {
+  Clock,           // Timing
+  Carrot,          // Ingredients
+  CookingPot,      // Cooking
+  ShoppingCart,    // Shopping
+  Calendar,        // Planning
+} from '@phosphor-icons/react'
+```
+
+### Colors
+TailwindCSS with dark mode support:
+```typescript
+// Core palette
+colors: {
+  primary: 'emerald',    // Health, freshness
+  secondary: 'amber',    // Warmth, cooking
+  neutral: 'zinc',       // Clean, modern UI
+}
+
+// Dark mode strategy
+darkMode: 'class'
+```
+
+### Accessibility
+- WCAG AA compliant (minimum contrast 4.5:1)
+- Minimum touch targets: 44x44px
+- Reduced motion support
+- Screen reader optimized
+
+---
+
 ## 🧑‍🍳 Recipe & Meal Planning Philosophy
 
 - **Vegetarian, egg-free, and dairy-milk-free by default**
@@ -114,4 +160,4 @@ src/
 
 ## 🤝 Contributing
 
-Pull requests and suggestions are welcome! Please ensure recipes and features align with the project’s dietary and UX philosophy.
+Pull requests and suggestions are welcome! Please ensure recipes and features align with the project's dietary and UX philosophy.
