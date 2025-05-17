@@ -1,0 +1,127 @@
+{
+  "metadata": {
+    "source": "WHO Healthy Diet Guidelines",
+    "last_updated": "29 April 2020",
+    "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"
+  },
+  "core_components": {
+    "fruits_and_vegetables": {
+      "daily_minimum": "400g",
+      "portions": 5,
+      "exclusions": ["potatoes", "sweet potatoes", "cassava", "other starchy roots"]
+    },
+    "basic_elements": [
+      "fruit",
+      "vegetables",
+      "legumes",
+      "nuts",
+      "whole grains"
+    ]
+  },
+  "dietary_limits": {
+    "sugars": {
+      "recommended_limit": {
+        "percentage": "< 10% of total energy intake",
+        "example": {
+          "amount": "50g",
+          "context": "for 2000 calories per day"
+        }
+      },
+      "ideal_limit": {
+        "percentage": "< 5% of total energy intake",
+        "note": "for additional health benefits"
+      },
+      "definition": "Free sugars include all sugars added to foods/drinks by manufacturer/cook/consumer, plus sugars in honey, syrups, fruit juices and concentrates"
+    },
+    "fats": {
+      "total_fats": {
+        "limit": "< 30% of total energy intake"
+      },
+      "saturated_fats": {
+        "limit": "< 10% of total energy intake"
+      },
+      "trans_fats": {
+        "limit": "< 1% of total energy intake",
+        "note": "industrially-produced trans-fats should be avoided"
+      }
+    },
+    "salt": {
+      "daily_limit": "< 5g",
+      "sodium_equivalent": "< 2g",
+      "requirement": "should be iodized"
+    }
+  },
+  "fat_recommendations": {
+    "preferred_fats": {
+      "type": "unsaturated",
+      "sources": [
+        "fish",
+        "avocado",
+        "nuts",
+        "sunflower oil",
+        "soybean oil",
+        "canola oil",
+        "olive oil"
+      ]
+    },
+    "fats_to_limit": {
+      "saturated_sources": [
+        "fatty meat",
+        "butter",
+        "palm oil",
+        "coconut oil",
+        "cream",
+        "cheese",
+        "ghee",
+        "lard"
+      ],
+      "trans_fat_sources": {
+        "industrial": [
+          "baked foods",
+          "fried foods",
+          "pre-packaged snacks",
+          "frozen pizza",
+          "pies",
+          "cookies",
+          "biscuits",
+          "wafers",
+          "cooking oils and spreads"
+        ],
+        "ruminant": [
+          "meat and dairy from cows",
+          "meat and dairy from sheep",
+          "meat and dairy from goats",
+          "meat and dairy from camels"
+        ]
+      }
+    }
+  },
+  "practical_recommendations": {
+    "fruits_and_vegetables": [
+      "always include vegetables in meals",
+      "eat fresh fruit and raw vegetables as snacks",
+      "eat seasonal produce",
+      "maintain variety"
+    ],
+    "reducing_fat_intake": [
+      "steam or boil instead of frying",
+      "replace saturated fats with polyunsaturated oils",
+      "eat reduced-fat dairy and lean meats",
+      "trim visible fat from meat",
+      "limit baked and fried foods",
+      "limit pre-packaged snacks"
+    ],
+    "reducing_salt_intake": [
+      "limit salt and high-sodium condiments when cooking",
+      "avoid table salt",
+      "limit salty snacks",
+      "choose lower sodium products",
+      "check nutrition labels for sodium content"
+    ],
+    "reducing_sugar_intake": [
+      "limit sugary snacks and candies",
+      "limit sugar-sweetened beverages",
+      "choose fresh fruits over sugary snacks"
+    ]
+  }
+}

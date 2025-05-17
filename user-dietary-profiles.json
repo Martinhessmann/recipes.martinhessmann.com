@@ -1,0 +1,124 @@
+{
+  "shared_preferences": {
+    "dietary_type": "vegetarian",
+    "excluded_foods": [
+      {
+        "food": "eggs",
+        "reason": "preference"
+      },
+      {
+        "food": "alcohol",
+        "reason": "preference"
+      },
+      {
+        "food": "dairy milk",
+        "reason": "preference",
+        "preferred_alternative": "oat milk"
+      }
+    ],
+    "milk_alternatives": {
+      "preferred": "oat milk",
+      "acceptable": [
+        "non-dairy yogurt",
+        "non-dairy cream"
+      ]
+    }
+  },
+  "individuals": {
+    "person_1": {
+      "basic_info": {
+        "gender": "male",
+        "age": 35,
+        "weight_kg": 85,
+        "height_cm": 190,
+        "bmi": 23.5
+      },
+      "dietary_restrictions": {
+        "allergies": [],
+        "intolerances": [],
+        "medical_conditions": []
+      },
+      "preferences": {
+        "can_eat_all_vegetables": true,
+        "can_eat_all_fruits": true,
+        "can_eat_all_nuts": true,
+        "can_eat_all_legumes": true
+      }
+    },
+    "person_2": {
+      "basic_info": {
+        "gender": "female",
+        "age": 30,
+        "weight_kg": 65,
+        "height_cm": 175,
+        "bmi": 21.2
+      },
+      "dietary_restrictions": {
+        "allergies": [],
+        "intolerances": {
+          "dairy": [
+            {
+              "food": "soy milk",
+              "severity": "must avoid"
+            },
+            {
+              "food": "yoghurt",
+              "severity": "must avoid"
+            }
+          ],
+          "nuts": {
+            "must_avoid": [
+              "almonds",
+              "cashews",
+              "walnuts",
+              "hazelnuts"
+            ],
+            "can_eat": [
+              "peanuts",
+              "pine nuts"
+            ]
+          },
+          "fruits_with_histamine": {
+            "must_avoid_raw": [
+              "pineapple"
+            ],
+            "sometimes_problematic_raw": [
+              "strawberries",
+              "some apple varieties",
+              "tomatoes"
+            ],
+            "note": "Can usually eat these fruits when cooked"
+          },
+          "specific_foods": [
+            {
+              "food": "avocado",
+              "severity": "must avoid"
+            }
+          ]
+        }
+      },
+      "safe_exceptions": {
+        "soy_products": [
+          "tofu",
+          "soy sauce"
+        ]
+      },
+      "preferences": {
+        "can_eat_most_vegetables": true,
+        "can_eat_most_fruits": true,
+        "fruit_preparation": "some fruits need to be cooked",
+        "limited_nuts": true
+      }
+    }
+  },
+  "metadata": {
+    "last_updated": "2024",
+    "version": "1.0",
+    "notes": [
+      "Both individuals are vegetarian",
+      "Both prefer plant-based milk alternatives",
+      "Person 2 has specific histamine-related food intolerances",
+      "BMI calculations included for reference"
+    ]
+  }
+}
